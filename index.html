@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70ea602f70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Pic/Logo.png" class="Logo">
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Sumit</span><br>From Rajasthan</h1>
+        </div>
+    </div>
+</div> 
+<!--------------about--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Pic/Photo.png.jpg" >
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Second-Year Computer Science and Engineering Student who does and goes for what he believes in.
+                     I am Hard-working, a Creative thinker, Observant and Understanding.
+                     I am always looking for an oppurtunity to learn. 
+                     I am a Web Developer and Coder.
+
+                    I have made very steady progress in the Sciences and aspire to do the same in the Arts. 
+                    I aspire to become a top-actor and director of movies i love and that people will support.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Desiging web/App interfaces</li>
+                            <li><span>PHP</span><br>first, like most languages and with practice</li>
+                            <li><span>Digital Marketing</span><br>Understand essential channels like SEO, SEM, social media marketing, email marketing, and content marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Codsoft Intership exerpience</li>
+                            <li><span>Jun 2023 - Aug 2023</span><br>Teachnook Intership AI</li>
+                            <li><span>Nov 2023 - Dec 2023</span><br>HTML,CSS and JavaScript for Web Developer</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>Vellore Institute of Technology, Bhopal</li>
+                            <li><span>2021</span><br>Nation Foundation (Senior Secondary (XII) , PCM) <br> Percentage: 95.00% </li>
+                            <li><span>2019</span><br> Nation Foundation (Secondary(X)) <br> Percentage: 79.00%</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<!----------------------services------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>I have been a Web Developer for 2 months and have made very remarkable progress in learning
+                     the shortcuts and methods of HTML, CSS and JavaScript. Having made a few projects already(
+                        whose details are below), My experience was nothing short of direct,straightforward and
+                         filled with many learning experiences</p>
+                         <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Coding</h2>
+                <p>I started coding in my final two years of high school and it was like learning a new Language.
+                     Learning the writing syntax, what were keywords and how we get certain outputs with different arrangements of commands.
+                      It was hard at first, like most languages and with practice, i got better in time without giving up.
+                     Now i have knowledge on many programming languages which include Python, C/C++, Java.</p>
+                         <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Artificial Intelligence</h2>
+                <p>ML: Machine Learning, a subfield of AI that focuses on algorithms that can learn from data without being explicitly programmed.
+                    DL: Deep Learning, a subfield of ML that uses artificial neural networks to learn from large amounts of data.</p>
+                         <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Pic/web_developer.webp">
+                <div class="layer">
+                    <h3>Social Media</h3>
+                    <p>Overall, social media is a powerful tool that can be used for both good and bad.
+                     It is important to be aware of the potential risks and to use social media responsibly.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pic/DSC07021.jpg">
+                <div class="layer">
+                    <h3>Web Developer</h3>
+                    <p>I have been a Web Developer for 2 months and have made very remarkable 
+                        progress in learning the shortcuts and methods of HTML, CSS and JavaScript.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pic/OIP.jpeg">
+                <div class="layer">
+                    <h3>Web Degains</h3>
+                    <p>It's the process of planning, conceptualizing, and creating the visual and functional layout of a website.
+                        It focuses on user experience (UX), ensuring a website is easy to navigate, visually appealing, and effective in achieving its goals.
+                        It involves various elements like:
+                        </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>8107379786</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/summit.kumawat.9/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sumit__kum_01/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://accounts.snapchat.com/accounts/snapcodes/"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="Pic/Resume (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"  required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sumit. Made with <i class="fa-solid fa-heart"></i> by Easy Sumit</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+      
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6FAIcMRS8bL9KqD79dpjW9WPMQs-fTZZDf7Eky3f0Zcx0VAof9UdvbN2KBXxO3Ic8Dw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
